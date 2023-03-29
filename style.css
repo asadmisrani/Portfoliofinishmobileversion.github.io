@@ -72,7 +72,7 @@ li {
   background: #fff;
 }
 
-  /* set height for network signal levels */
+/* set height for network signal levels */
 .network-signal .first-level {
   height: 4px;
 }
@@ -89,7 +89,7 @@ li {
   height: 10.67px;
 }
 
-  /* styling section for wifi signal */
+/* styling section for wifi signal */
 .wifi-signal {
   position: relative;
   top: 7px;
@@ -103,7 +103,7 @@ li {
   margin: 2px;
 }
 
-  /* for battery design */
+ /* for battery design */
 .battery {
   display: inline-flex;
   align-items: center;
@@ -128,9 +128,9 @@ li {
   border-bottom-right-radius: 150px;
 }
 
-  /* button effect for signals */
+/* button effect for signals */
 
-  /* styling for header */
+/* styling for header */
 .header {
   width: 100%;
   height: 48px;
@@ -248,7 +248,7 @@ li {
   background-image: url("../images/background.png");
 }
 
-  /* my-work section styling */
+/* my-work section styling */
 .my-work {
   display: flex;
   flex-direction: column;
@@ -288,7 +288,7 @@ li {
   background: rgba(255, 255, 255, 0.24);
 }
 
-  /* my-work grid styling */
+/* my-work grid styling */
 .my-work-grid-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -311,7 +311,7 @@ li {
   background-repeat: no-repeat;
 }
 
-  /* work 2 card styling */
+/* work 2 card styling */
 .work-2-span h1 {
   margin: 0;
   font-family: "Crete Round", sans-serif;
@@ -350,7 +350,7 @@ li {
   border: none;
 }
 
-  /* styling for similar card i.e myslfe works */
+/* styling for similar card i.e myslfe works */
 .common-work-card {
   margin: 0;
   background:
@@ -409,7 +409,7 @@ li {
   color: #fff;
 }
 
-  /* list styling for my-work section */
+/* list styling for my-work section */
 .my-work-grid-container ul {
   list-style: none;
   display: flex;
@@ -424,7 +424,7 @@ li {
   row-gap: 12px;
 }
 
-  /* about me section styling */
+/* about me section styling */
 .about-me {
   display: flex;
   flex-direction: column;
@@ -498,7 +498,7 @@ li {
   font-size: 22px;
   line-height: 43px;
 
-    /* or 194% */
+/* or 194% */
 
   display: flex;
   align-items: center;
@@ -555,7 +555,7 @@ li {
   list-style: none;
 }
 
-  /* about me illustration background image */
+/* about me illustration background image */
 .about-free {
   display: inline-block;
   padding-top: 209px;
@@ -582,7 +582,7 @@ li {
   padding: 120px 24px;
 }
 
-  .get-in-touch-form > * {
+.get-in-touch-form > * {
   padding: 0;
   margin-bottom: 36px;
 }
@@ -669,7 +669,7 @@ li {
   margin-bottom: 0;
 }
 
-  /* hover effect */
+/* hover effect */
 
 .network-signal .signal:hover {
   box-shadow: 0 0 0 1px rgb(151, 71, 255);
@@ -697,7 +697,7 @@ li {
   background: #dfe1e6;
 }
 
-  /* mobile version hiden */
+/* mobile version hiden */
 .header-nav {
   display: none;
 }
@@ -706,10 +706,10 @@ li {
   display: none;
 }
 
-  /* Descktop Version */
+/* Descktop Version */
 
 @media screen and (min-width: 768px) {
-body {
+  body {
   background-color: #505f79;
     }
 
@@ -744,7 +744,7 @@ a {
   flex-wrap: nowrap;
   justify-content: space-around;
 
-      /* column-gap: 10%; */
+/* column-gap: 10%; */
   background: #3c3a39;
   z-index: 200;
 }
@@ -762,7 +762,7 @@ a {
   color: red;
     }
 
-    /* Headline desktop styling */
+/* Headline desktop styling */
 
 .headline {
   flex-direction: row;
@@ -817,7 +817,7 @@ a {
   top: 170px;
 }
 
-    illustration {
+.illustration {
   background-image: url("../images/Illustration-header-desktop2.png");
   background-repeat: no-repeat;
   position: absolute;
@@ -829,7 +829,7 @@ a {
   margin: 0;
 }
 
-    /* My work section styling */
+/* My work section styling */
 
 .my-work {
   padding-left: 10%;
@@ -860,9 +860,9 @@ a {
 .my-work hr {
   background-color: #212121;
 
-      /* flex: none; */
+/* flex: none; */
 
-      /* order: 1; */
+/* order: 1; */
   flex-grow: 0;
   padding: 0;
   margin: 0;
@@ -879,9 +879,9 @@ a {
 .work-1-span {
   grid-column: 2 span;
 
-      /* display: inline-grid; */
+/* display: inline-grid; */
 
-      /* grid-template-columns:100%; */
+/* grid-template-columns:100%; */
   width: 90%;
   height: 448px;
 }
@@ -893,7 +893,7 @@ a {
 }
 
 .work-2-span h1 {
-      /* width: 448px; */
+/* width: 448px; */
   height: 48px;
   font-family: "Crete Round", sans-serif;
   font-style: normal;
@@ -981,7 +981,7 @@ a {
   top: 90%;
 }
 
-    /* About me desktop styling  */
+/* About me desktop styling  */
 
 .about-me {
   flex-direction: column;
@@ -994,8 +994,8 @@ a {
   flex-direction: row;
   column-gap: 5%;
 
-      /* align-items: ; */
-    }
+/* align-items: ; */
+}
 
 .about-me-note {
   width: 40%;
@@ -1029,8 +1029,8 @@ a {
   letter-spacing: 0.03em;
 }
 
-    /* .illustration-wraper {
-    } */
+/* .illustration-wraper {
+  } */
 
 .about-illustration-img {
   background-image: url("../images/about-illustration-desktop.png");
@@ -1040,12 +1040,12 @@ a {
   height: 353.1px;
   align-items: first baseline;
 
-      /* left: 1527.27px; */
+/* left: 1527.27px; */
   top: 10px;
   margin: 0;
   padding: 0;
 
-      /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+/* transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
 
 .skills-wraper {
@@ -1055,19 +1055,19 @@ a {
   flex-direction: row;
   column-gap: 15%;
 
-      /* justify-content: baseline; */
+/* justify-content: baseline; */
   align-items: baseline;
 }
 
-    /* contact me desktop styling  */
+/* contact me desktop styling  */
 .get-in-touch {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: first baseline;
 
-      /* column-gap: 1%; */
-    }
+/* column-gap: 1%; */
+}
 
 .get-in-touch p {
   width: 38%;
