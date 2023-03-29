@@ -103,7 +103,7 @@ li {
   margin: 2px;
 }
 
- /* for battery design */
+/* for battery design */
 .battery {
   display: inline-flex;
   align-items: center;
@@ -355,9 +355,9 @@ li {
   margin: 0;
   background:
     linear-gradient(
-        180.45deg,
-        rgba(38, 38, 38, 0) 0.75%,
-        rgba(38, 38, 38, 0.9) 61.94%
+      180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 61.94%
     ),
     url("../images/work\ card\ mask.png");
 }
@@ -498,7 +498,7 @@ li {
   font-size: 22px;
   line-height: 43px;
 
-/* or 194% */
+  /* or 194% */
 
   display: flex;
   align-items: center;
@@ -710,32 +710,33 @@ li {
 
 @media screen and (min-width: 768px) {
   body {
-  background-color: #505f79;
-    }
+    background-color: #505f79;
+  }
 
-.main-content {
-  width: 100%;
+  .main-content {
+    width: 100%;
+  }
+
+  .status-bar,
+  .header {
+    display: none;
 }
 
-.status-bar,
-.header {
-  display: none;
-}
-
-a {
-  text-decoration: none;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-    }
+  a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
 
 .header-nav i {  all: revert;  color: #fff;
+   
 }
 
 .header-nav {
