@@ -953,7 +953,6 @@ li {
     display: flex;
     flex-direction: row;
     column-gap: 5%;
-
   }
 
   .about-me-note {
@@ -1014,7 +1013,6 @@ li {
     flex-direction: row;
     justify-content: space-around;
     align-items: first baseline;
-
   }
 
   .get-in-touch p {
@@ -1043,7 +1041,7 @@ li {
 
 button:hover {
   color: red;
-}
+  }
 
   .name-input {
     display: flex;
