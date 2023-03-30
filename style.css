@@ -72,7 +72,6 @@ li {
   background: #fff;
 }
 
-/* set height for network signal levels */
 .network-signal .first-level {
   height: 4px;
 }
@@ -89,7 +88,6 @@ li {
   height: 10.67px;
 }
 
-/* styling section for wifi signal */
 .wifi-signal {
   position: relative;
   top: 7px;
@@ -103,7 +101,6 @@ li {
   margin: 2px;
 }
 
-/* for battery design */
 .battery {
   display: inline-flex;
   align-items: center;
@@ -128,9 +125,6 @@ li {
   border-bottom-right-radius: 150px;
 }
 
-/* button effect for signals */
-
-/* styling for header */
 .header {
   width: 100%;
   height: 48px;
@@ -248,7 +242,6 @@ li {
   background-image: url("../images/background.png");
 }
 
-/* my-work section styling */
 .my-work {
   display: flex;
   flex-direction: column;
@@ -288,7 +281,6 @@ li {
   background: rgba(255, 255, 255, 0.24);
 }
 
-/* my-work grid styling */
 .my-work-grid-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -311,7 +303,6 @@ li {
   background-repeat: no-repeat;
 }
 
-/* work 2 card styling */
 .work-2-span h1 {
   margin: 0;
   font-family: "Crete Round", sans-serif;
@@ -350,7 +341,6 @@ li {
   border: none;
 }
 
-/* styling for similar card i.e myslfe works */
 .common-work-card {
   margin: 0;
   background:
@@ -409,7 +399,6 @@ li {
   color: #fff;
 }
 
-/* list styling for my-work section */
 .my-work-grid-container ul {
   list-style: none;
   display: flex;
@@ -424,7 +413,6 @@ li {
   row-gap: 12px;
 }
 
-/* about me section styling */
 .about-me {
   display: flex;
   flex-direction: column;
@@ -497,9 +485,6 @@ li {
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
-
-  /* or 194% */
-
   display: flex;
   align-items: center;
   text-align: center;
@@ -555,7 +540,6 @@ li {
   list-style: none;
 }
 
-/* about me illustration background image */
 .about-free {
   display: inline-block;
   padding-top: 209px;
@@ -586,11 +570,6 @@ li {
   padding: 0;
   margin-bottom: 36px;
 }
-
-/* .required::after{
-  content: "*";
-  color: red;
-} */
 
 .get-in-touch p {
   font-family: "Inter", sans-serif;
@@ -669,8 +648,6 @@ li {
   margin-bottom: 0;
 }
 
-/* hover effect */
-
 .network-signal .signal:hover {
   box-shadow: 0 0 0 1px rgb(151, 71, 255);
 }
@@ -697,7 +674,6 @@ li {
   background: #dfe1e6;
 }
 
-/* mobile version hiden */
 .header-nav {
   display: none;
 }
@@ -705,8 +681,6 @@ li {
 .last-name-input {
   display: none;
 }
-
-/* Descktop Version */
 
 @media screen and (min-width: 768px) {
   body {
@@ -745,8 +719,6 @@ li {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-
-    /* column-gap: 10%; */
     background: #3c3a39;
     z-index: 200;
   }
@@ -763,8 +735,6 @@ li {
   .header-nav > :first-child {
     color: red;
   }
-
-  /* Headline desktop styling */
 
   .headline {
     flex-direction: row;
@@ -832,8 +802,6 @@ li {
     margin: 0;
   }
 
-  /* My work section styling */
-
   .my-work {
     padding-left: 10%;
     padding-right: 10%;
@@ -862,10 +830,6 @@ li {
 
   .my-work hr {
     background-color: #212121;
-
-    /* flex: none; */
-
-    /* order: 1; */
     flex-grow: 0;
     padding: 0;
     margin: 0;
@@ -881,10 +845,6 @@ li {
 
   .work-1-span {
     grid-column: 2 span;
-
-    /* display: inline-grid; */
-
-    /* grid-template-columns:100%; */
     width: 90%;
     height: 448px;
   }
@@ -896,7 +856,6 @@ li {
   }
 
   .work-2-span h1 {
-    /* width: 448px; */
     height: 48px;
     font-family: "Crete Round", sans-serif;
     font-style: normal;
@@ -984,8 +943,6 @@ li {
     top: 90%;
   }
 
-  /* About me desktop styling  */
-
   .about-me {
     flex-direction: column;
     row-gap: 142px;
@@ -997,7 +954,6 @@ li {
     flex-direction: row;
     column-gap: 5%;
 
-    /* align-items: ; */
   }
 
   .about-me-note {
@@ -1032,9 +988,6 @@ li {
     letter-spacing: 0.03em;
   }
 
-  /* .illustration-wraper {
-  } */
-
   .about-illustration-img {
     background-image: url("../images/about-illustration-desktop.png");
     background-repeat: no-repeat;
@@ -1042,13 +995,9 @@ li {
     width: 673.27px;
     height: 353.1px;
     align-items: first baseline;
-
-    /* left: 1527.27px; */
     top: 10px;
     margin: 0;
     padding: 0;
-
-    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
   }
 
   .skills-wraper {
@@ -1057,19 +1006,15 @@ li {
     display: flex;
     flex-direction: row;
     column-gap: 15%;
-
-    /* justify-content: baseline; */
     align-items: baseline;
   }
 
-  /* contact me desktop styling  */
   .get-in-touch {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: first baseline;
 
-    /* column-gap: 1%; */
   }
 
   .get-in-touch p {
@@ -1095,6 +1040,10 @@ li {
   .get-in-touch-form button {
     margin: 0;
   }
+
+button:hover {
+  color: red;
+}
 
   .name-input {
     display: flex;
