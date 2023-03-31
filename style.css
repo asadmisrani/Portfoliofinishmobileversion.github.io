@@ -657,6 +657,8 @@ li {
 .about-me button:hover,
 .get-in-touch-form button:hover {
   box-shadow: 0 0 0 2px rgb(12, 140, 233);
+  background-color: red;
+  color: orange;
 }
 
 .status-bar span:hover {
@@ -1037,10 +1039,6 @@ li {
 
   .get-in-touch-form button {
     margin: 0;
-  }
-
-  button:hover {
-    color: red;
   }
 
   .name-input {
