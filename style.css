@@ -12,6 +12,12 @@ li {
   padding-left: 0;
 }
 
+@media only screen and (min-width: 375px) {
+  .body {
+    height: 100vh;
+    width: 100%;
+  }
+  
 .main-content {
   margin: 0;
   padding: 0;
@@ -944,6 +950,11 @@ li {
     position: relative;
     top: 90%;
   }
+
+  @media only screen and (min-width: 1000px) {
+    .desktop_content .desktop_content-image {
+      background-size: 500px 500px;
+    }
 
   .about-me {
     flex-direction: column;
