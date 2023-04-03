@@ -239,7 +239,7 @@ li {
   left: 64.8%;
   top: 54.99%;
   background-repeat: no-repeat;
-  background-image: url("../images/background.png");
+  background-image: url("./images/background.png");
 }
 
 .my-work {
@@ -299,7 +299,7 @@ li {
   background-size: 100% 100%;
   width: 100%;
   height: 237px;
-  background-image: url("../images/work-1-snipt.png");
+  background-image: url("./images/work-1-snipt.png");
   background-repeat: no-repeat;
 }
 
@@ -349,7 +349,7 @@ li {
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
     ),
-    url("../images/work\ card\ mask.png");
+    url("./images/work\ card\ mask.png");
 }
 
 .common-card-inclose {
@@ -552,7 +552,7 @@ li {
 .about-illustration-img {
   width: 162px;
   height: 258.7px;
-  background-image: url("../images/about-illustration-mobile.png");
+  background-image: url("./images/about-illustration-mobile.png");
   background-repeat: no-repeat;
   position: absolute;
   left: 57.4%;
@@ -793,7 +793,7 @@ li {
   }
 
   .illustration {
-    background-image: url("../images/Illustration-header-desktop2.png");
+    background-image: url("./images/Illustration-header-desktop2.png");
     background-repeat: no-repeat;
     position: absolute;
     width: 658.13px;
@@ -884,19 +884,19 @@ li {
 
   .work-3-span,
   .work-6-span {
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%), url("../images/work\ card\ left\ desktop.png");
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%), url("./images/work\ card\ left\ desktop.png");
     background-repeat: no-repeat;
   }
 
   .work-4-span,
   .work-7-span {
-    background-image: url("../images/work\ card\ middle\ desktop.png");
+    background-image: url("./images/work\ card\ middle\ desktop.png");
     background-repeat: no-repeat;
   }
 
   .work-5-span,
   .work-8-span {
-    background-image: url("../images/work\ card\ right\ desktop.png");
+    background-image: url("./images/work\ card\ right\ desktop.png");
     background-repeat: no-repeat;
   }
 
@@ -990,7 +990,7 @@ li {
   }
 
   .about-illustration-img {
-    background-image: url("../images/about-illustration-desktop.png");
+    background-image: url("./images/about-illustration-desktop.png");
     background-repeat: no-repeat;
     position: absolute;
     width: 673.27px;
