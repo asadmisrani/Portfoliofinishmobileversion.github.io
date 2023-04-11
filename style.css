@@ -184,7 +184,7 @@ a {
   background-color: white;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .hamburger {
     display: block;
   }
@@ -736,7 +736,6 @@ a {
 @media screen and (min-width: 768px) {
   body {
     background-color: #505f79;
-
   }
 
   .main-content {
@@ -817,7 +816,7 @@ a {
     width: 658.13px;
     height: 769.27px;
     left: 690.68px;
-    top: -0px;
+    top: 0px;
     padding: 0;
     margin: 0;
   }
