@@ -162,11 +162,25 @@ a {
 }
 
 .nav-link {
-  transition: 0.7s ease;
+  position: relative;
+  color: white;
+  text-decoration: none;
 }
 
-.nav-link:hover {
-  color: dodgerblue;
+.nav-link::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: white; 
+  transition: width 0.3s ease-out, left 0.3s ease-out;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+  left: 0;
 }
 
 .hamburger {
