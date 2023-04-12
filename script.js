@@ -1,8 +1,7 @@
 // PopUp Object
 
 const popObjects = [
-
-  {
+{
     title: 'Multi-Post Stories',
     subtitle: 'FACEBOOK',
     experience: ['Full Stack Dev', '2015'],
@@ -13,8 +12,8 @@ const popObjects = [
     seeLive: 'https://asadmisrani.github.io/portfoliofinishmobileversion.github.io/',
     seeSource: 'https://github.com/asadmisrani',
     class: 'popCard2',
-  },
-  {
+},
+{
     title: 'Facebook 360',
     subtitle: 'FACEBOOK',
     experience: ['Full Stack Dev', '2015'],
@@ -25,8 +24,8 @@ const popObjects = [
     seeLive: 'https://asadmisrani.github.io/portfoliofinishmobileversion.github.io/',
     seeSource: 'https://github.com/asadmisrani',
     class: 'popCard3',
-  },
-  {
+},
+{
     title: 'Uber Navigation',
     subtitle: 'Uber',
     experience: ['Lead Developer', '2018'],
@@ -37,7 +36,7 @@ const popObjects = [
     seeLive: 'https://asadmisrani.github.io/portfoliofinishmobileversion.github.io/',
     seeSource: 'https://github.com/asadmisrani',
     class: 'popCard4',
-  },
+},
 ];
 
 // hamburguer menu
