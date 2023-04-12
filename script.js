@@ -1,7 +1,19 @@
 // PopUp Object
 
 const popObjects = [
-
+  {
+    title: 'Awesome books',
+    subtitle: 'Microverse',
+    experience: ['Front End Dev', '2023'],
+    image: './images/screenshots/MainPage.png',
+    image1: './images/screenshots/BooksList.png',
+    description1: 'An application that allows users to add or remove books from a list, not subscription is needed nor online conection.',
+    description: 'Awesome Books is a website that allows users to add/remove books from a list. It was achieved by using JavaScript objects and arrays. Dynamically modify the DOM and added basic events, using ES6 sintax, using modules into javascript code, and use of arrow functions.',
+    tech: ['html', 'css', 'javaScript', 'Bootstrap', 'ES6 syntax'],
+    seeLive: 'https://asadmisrani.github.io/AwesomeBooks/',
+    seeSource: 'https://github.com/asadmisrani/AwesomeBooks-ES6',
+    class: 'popCard1',
+  },
   {
     title: 'Multi-Post Stories',
     subtitle: 'FACEBOOK',
