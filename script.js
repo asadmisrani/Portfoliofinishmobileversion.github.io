@@ -14,7 +14,18 @@ const popObjects = [
     seeSource: 'https://github.com/asadmisrani',
     class: 'popCard2',
   },
-  
+  {
+    title: 'Facebook 360',
+    subtitle: 'FACEBOOK',
+    experience: ['Full Stack Dev', '2015'],
+    image: './images/pop/Portfolio1.svg',
+    description1: 'Exploring the future of media in Facebook\'s first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
+    tech: ['html', 'Ruby on rails', 'css', 'javaScript'],
+    seeLive: 'https://asadmisrani.github.io/portfoliofinishmobileversion.github.io/',
+    seeSource: 'https://github.com/asadmisrani',
+    class: 'popCard3',
+  },
   {
     title: 'Uber Navigation',
     subtitle: 'Uber',
