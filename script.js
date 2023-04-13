@@ -24,7 +24,7 @@ const popObjects = [
     tech: ['html', 'Ruby on rails', 'css', 'javaScript'],
     seeLive: 'https://asadmisrani.github.io/portfoliofinishmobileversion.github.io/',
     seeSource: 'https://github.com/asadmisrani',
-    class: 'popCard2',
+    class: 'popCard1',
   },
   {
     title: 'Facebook 360',
@@ -36,7 +36,7 @@ const popObjects = [
     tech: ['html', 'Ruby on rails', 'css', 'javaScript'],
     seeLive: 'https://asadmisrani.github.io/portfoliofinishmobileversion.github.io/',
     seeSource: 'https://github.com/asadmisrani',
-    class: 'popCard3',
+    class: 'popCard1',
   },
   {
     title: 'Uber Navigation',
@@ -48,7 +48,7 @@ const popObjects = [
     tech: ['html', 'Ruby on rails', 'css', 'javaScript'],
     seeLive: 'https://asadmisrani.github.io/portfoliofinishmobileversion.github.io/',
     seeSource: 'https://github.com/asadmisrani',
-    class: 'popCard4',
+    class: 'popCard1',
   },
 ];
 

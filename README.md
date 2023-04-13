@@ -79,7 +79,7 @@ This Porfolio is a compedium of my projects as it continue scaling in web develo
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<!-- - [Live Demo Link](https://asadmisrani.github.io/portfoliofinishmobileversion.github.io/) -->
+- [Live Demo Link](https://asadmisrani.github.io/portfoliofinishmobileversion.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
