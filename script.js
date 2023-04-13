@@ -251,47 +251,52 @@ sButton.forEach((button, index) => {
 
 // Client Side Validation
 
-const form = document.getElementById('contact_form');
-const error = document.getElementById('error-mssg');
+// Get the form and email input field
+const form = document.querySelector('.get-in-touch-form');
+const emailInput = document.querySelector('#email');
 
-function clientValidationByEmail() {
-  const email = document.getElementById('email');
-
-  if (email.value !== email.value.toLowerCase()) {
-    error.innerHTML = 'E-mail must be in lowercase, the form will not be sent.';
-    return false;
+// Add event listener to the form for submit event
+form.addEventListener('submit', (event) => {
+  // Prevent the default form submission
+  event.preventDefault();
+  
+  // Get the email entered by the user
+  const email = emailInput.value;
+  
+  // Check if the email is in lowercase
+  if (email !== email.toLowerCase()) {
+    // Display an error message
+    const errorMssg = document.querySelector('#error-mssg');
+    errorMssg.textContent = 'Please enter your email in lowercase.';
+    return;
   }
-  return true;
-}
-
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-
-  if (clientValidationByEmail()) {
-    form.submit();
-  }
+  
+  // If the email is in lowercase, submit the form
+  form.submit();
 });
+
+
 
 // Preserve data in browser
 
-const formName = document.getElementById('nameid');
-const formEmail = document.getElementById('email');
-const formMessage = document.getElementById('msg');
+// const formName = document.getElementById('nameid');
+// const formEmail = document.getElementById('email');
+// const formMessage = document.getElementById('msg');
 
-const savedData = localStorage.getItem('formData');
+// const savedData = localStorage.getItem('formData');
 
-if (savedData) {
-  const { name, email, message } = JSON.parse(savedData);
-  formName.value = name;
-  formEmail.value = email;
-  formMessage.value = message;
-}
+// if (savedData) {
+//   const { name, email, message } = JSON.parse(savedData);
+//   formName.value = name;
+//   formEmail.value = email;
+//   formMessage.value = message;
+// }
 
-form.addEventListener('input', () => {
-  const formData = {
-    name: formName.value,
-    email: formEmail.value,
-    message: formMessage.value,
-  };
-  localStorage.setItem('formData', JSON.stringify(formData));
-});
+// form.addEventListener('input', () => {
+//   const formData = {
+//     name: formName.value,
+//     email: formEmail.value,
+//     message: formMessage.value,
+//   };
+//   localStorage.setItem('formData', JSON.stringify(formData));
+// });
