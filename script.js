@@ -255,24 +255,24 @@ sButton.forEach((button, index) => {
 
 // Preserve data in browser
 
-const formName = document.getElementById('nameid');
-const formEmail = document.getElementById('email');
-const formMessage = document.getElementById('msg');
+// const formName = document.getElementById('nameid');
+// const formEmail = document.getElementById('email');
+// const formMessage = document.getElementById('msg');
 
-const savedData = localStorage.getItem('formData');
+// const savedData = localStorage.getItem('formData');
 
-if (savedData) {
-  const { name, email, message } = JSON.parse(savedData);
-  formName.value = name;
-  formEmail.value = email;
-  formMessage.value = message;
-}
+// if (savedData) {
+//   const { name, email, message } = JSON.parse(savedData);
+//   formName.value = name;
+//   formEmail.value = email;
+//   formMessage.value = message;
+// }
 
-form.addEventListener('input', () => {
-  const formData = {
-    name: formName.value,
-    email: formEmail.value,
-    message: formMessage.value,
-  };
-  localStorage.setItem('formData', JSON.stringify(formData));
-});
+// form.addEventListener('input', () => {
+//   const formData = {
+//     name: formName.value,
+//     email: formEmail.value,
+//     message: formMessage.value,
+//   };
+//   localStorage.setItem('formData', JSON.stringify(formData));
+// });
